@@ -1,0 +1,17 @@
+
+{
+    "manifest_version": 2,
+    "name": "prr",
+    "version": "1.0",
+    "description": "Limit exposure to promoted reddit contnet",
+    "content_scripts": [
+        {
+            "css": [
+                "hide.css"
+            ],
+            "matches": [
+                "*://*.reddit.com/*"
+            ]
+        }
+    ]
+}
